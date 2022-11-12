@@ -57,6 +57,9 @@
     <Page Update="Views\Category\EditCategoryView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\LoginView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Order\CreateOrderView.xaml">
       <SubType>Designer</SubType>
     </Page>
