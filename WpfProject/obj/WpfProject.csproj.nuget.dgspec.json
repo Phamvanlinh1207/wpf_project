@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Hoc\\C#\\WpfProject\\WpfProject\\WpfProject.csproj": {}
+    "D:\\C#\\wpf_project\\WpfProject\\WpfProject.csproj": {}
   },
   "projects": {
-    "E:\\Hoc\\C#\\WpfProject\\WpfProject\\WpfProject.csproj": {
+    "D:\\C#\\wpf_project\\WpfProject\\WpfProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Hoc\\C#\\WpfProject\\WpfProject\\WpfProject.csproj",
+        "projectUniqueName": "D:\\C#\\wpf_project\\WpfProject\\WpfProject.csproj",
         "projectName": "WpfProject",
-        "projectPath": "E:\\Hoc\\C#\\WpfProject\\WpfProject\\WpfProject.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Hoc\\C#\\WpfProject\\WpfProject\\obj\\",
+        "projectPath": "D:\\C#\\wpf_project\\WpfProject\\WpfProject.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\wpf_project\\WpfProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

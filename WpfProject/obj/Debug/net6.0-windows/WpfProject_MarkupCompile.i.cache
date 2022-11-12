@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\Hoc\C#\WpfProject\WpfProject\obj\Debug\net6.0-windows\
+D:\C#\wpf_project\WpfProject\obj\Debug\net6.0-windows\
 WpfProject
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\Hoc\C#\WpfProject\WpfProject\App.xaml
-13-898589629
+D:\C#\wpf_project\WpfProject\App.xaml
+14-577692338
 
-461034921280
-200-1059148452
-MainWindow.xaml;Views\Category\CategoryView.xaml;Views\Category\CreateCategoryView.xaml;Views\Category\EditCategoryView.xaml;Views\Order\CreateOrderView.xaml;Views\Order\EditOrderView.xaml;Views\Order\OrderView.xaml;Views\Product\CreateProductView.xaml;Views\Product\EditProductView.xaml;Views\Product\ProductView.xaml;Views\User\CreateUserView.xaml;Views\User\EditUserView.xaml;Views\User\UserView.xaml;
+50-593955870
+200-121332031
+MainWindow.xaml;Views\Category\CategoryView.xaml;Views\Category\CreateCategoryView.xaml;Views\Category\EditCategoryView.xaml;Views\LoginView.xaml;Views\Order\CreateOrderView.xaml;Views\Order\EditOrderView.xaml;Views\Order\OrderView.xaml;Views\Product\CreateProductView.xaml;Views\Product\EditProductView.xaml;Views\Product\ProductView.xaml;Views\User\CreateUserView.xaml;Views\User\EditUserView.xaml;Views\User\UserView.xaml;
 
 False
 
