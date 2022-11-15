@@ -12,6 +12,7 @@
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
         AllowsTransparency="True"
+        Visibility="{Binding IsVisible, Mode=TwoWay}"
         MouseDown="Window_MouseDown">
     <Window.DataContext>
         <vm:LoginViewModel/>

@@ -5,12 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows;
+using WpfProject.Data.Dao;
 
 namespace WpfProject.ViewModels
 {
     public class CreateUserViewModel : ViewModelBase
     {
-        private String _email;
+        private String _phone;
         private String _password;
         public ICommand CreateUserCommand { get; }
 
@@ -21,16 +22,21 @@ namespace WpfProject.ViewModels
 
         private void ExecuteCreateUserCommand(object obj)
         {
-            MessageBox.Show(Email);
+            User user = new User();
+            user.Phone = Phone;
+            user.Password = Password;
+
+            UserDao userDao = DataDao.Instance().GetUserDao();
+            userDao.insert(user);
         }
 
-        public string Email
+        public string Phone
         {
-            get => _email;
+            get => _phone;
             set
             {
-                _email = value;
-                OnPropertyChanged(nameof(Email));
+                _phone = value;
+                OnPropertyChanged(nameof(Phone));
             }
         }
         public string Password

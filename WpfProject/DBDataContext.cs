@@ -22,7 +22,7 @@ namespace WpfProject
     using System;
 
 
-    [global::System.Data.Linq.Mapping.DatabaseAttribute(Name = "phi1")]
+    [global::System.Data.Linq.Mapping.DatabaseAttribute(Name = "Shop")]
     public partial class DBDataContext : System.Data.Linq.DataContext
     {
 

@@ -118,3 +118,5 @@ D:\C#\wpf_project\WpfProject\obj\Debug\net6.0-windows\refint\WpfProject.dll
 D:\C#\wpf_project\WpfProject\obj\Debug\net6.0-windows\WpfProject.pdb
 D:\C#\wpf_project\WpfProject\obj\Debug\net6.0-windows\WpfProject.genruntimeconfig.cache
 D:\C#\wpf_project\WpfProject\obj\Debug\net6.0-windows\ref\WpfProject.dll
+E:\Hoc\C#\WpfProject\WpfProject\obj\Debug\net6.0-windows\Views\LoginView.g.cs
+E:\Hoc\C#\WpfProject\WpfProject\obj\Debug\net6.0-windows\Views\LoginView.baml
