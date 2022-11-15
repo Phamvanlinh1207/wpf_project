@@ -12,6 +12,7 @@ namespace WpfProject.ViewModels
         private string _phone;
         private string _password;
         private bool _isErrorVisible = false;
+        private Visibility _isVisible;
 
         public LoginViewModel()
         {
@@ -25,18 +26,27 @@ namespace WpfProject.ViewModels
 
         private void ExecuteLoginCommand(object obj)
         {
-            DataDao.init(new SqlServerDataDao());
             UserDao userDao = DataDao.Instance().GetUserDao();
             User user = userDao.find(Phone, Password);
             if(user != null)
             {
                 MainWindow mainWindow = new MainWindow();
                 mainWindow.Show();
+                IsVisible = Visibility.Hidden;
             }
             else
             {
                 IsErrorVisible = true;
                 MessageBox.Show("Login failed");
+            }
+        }
+        public Visibility IsVisible
+        {
+            get { return _isVisible; }
+            set
+            {
+                _isVisible = value;
+                OnPropertyChanged(nameof(IsVisible));
             }
         }
         public string Phone
